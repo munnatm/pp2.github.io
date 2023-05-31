@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide");
+body {
+  margin: 200px;
+  overflow: hidden;
+  font-family: "Audiowide", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  nav-right: auto;
+  color: #333;
+}
+
+img {
+  max-width: 200px;
+  margin-top: 20px;
+  /* hide the image by default */
+}
+
+.proposal-button {
+  font-family: "Audiowide", sans-serif;
+  padding: 10px 20px;
+  background-color: #ff4081;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.proposal-button:hover {
+  background-color: #e91e63;
+}
+
+.response-button {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.response-button:hover {
+  background-color: #45a049;
+}
